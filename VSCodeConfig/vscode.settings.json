@@ -1,0 +1,68 @@
+{
+  /* vscode 编辑器配置 */
+  "editor.fontSize": 12,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.suggestSelection": "first",
+  /* 保存时自动格式化 */
+  "editor.formatOnSave": true,
+  /* prettier 代码格式检查配置 */
+  /* 单引号 */
+  "prettier.singleQuote": true,
+  /* 尾部添加分号 */
+  "prettier.semi": true,
+  /** 缩进长度 */
+  "prettier.tabWidth": 2,
+  /* 使用 tab 缩进 */
+  "prettier.useTabs": false,
+  /* 空格替代 tab */
+  "prettier.bracketSpacing": true,
+  /* 箭头参数可省略括号 */
+  "prettier.arrowParens": "avoid",
+  /* jsx 标签对齐 */
+  "prettier.jsxBracketSameLine": false,
+  /** 是否缩进 script, style */
+  "prettier.vueIndentScriptAndStyle": false,
+  /** prettier 格式化配置 */
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  /* vscode-icons 配置*/
+  "workbench.iconTheme": "vscode-icons",
+  /* 其它配置 */
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "sync.gist": "317d4338f107ae077999c4224b8c8d94",
+  "workbench.startupEditor": "none",
+
+  /** git-bash 配置 */
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "bash": {
+      "path": "D:\\Git\\bin\\bash.exe",
+      "args": []
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "bash"
+}
