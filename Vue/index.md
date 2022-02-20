@@ -64,7 +64,7 @@ src\cores\layout\components\aside-menu\index.vue 35:26  root stylesheet
 **解决方案**
 
 ```markdown
-1. 常见于覆盖组件样式(使用框架组件,或者递归组件)等情况; 一般可通过 >>>, /deep/, v::deep 进行样式穿透解决此类问题; Vue3 中建议使用 v::deep。
+1. 常见于覆盖组件样式(使用框架组件,或者递归组件)等情况; 一般可通过 >>>, /deep/, v::deep, :deep(selector) 等方法进行样式穿透解决此类问题; Vue3 中建议使用 v:deep(selector)。
 ```
 
 
